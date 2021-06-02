@@ -1,0 +1,120 @@
+#background
+{
+    background-image: url("background.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.header
+{
+	color: white;
+    font-family: 'Yeon Sung';
+    font-size: 45px;
+    letter-spacing: 10px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h3,h4,label
+{
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+}
+
+.login_div
+{
+	background: #4f7d82;
+    float: none;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+input
+{
+    font-family: system-ui;
+	font-size: 15px;
+	line-height: 20px;
+	width: 250px;
+	height: 50px;
+	color: #fff;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+}
+
+.button
+{
+    background-color: #4f7d82;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: system-ui;
+}
+
+.button1
+{
+    background-color: #4f7d82;
+    color: white;
+    width: 80%;
+}
+
+.button1:hover
+{
+    background-color: whitesmoke; 
+    color: #4f7d82; 
+    border: 2px solid white;
+    font-family: 'Lucida Caligraphy';
+    text-shadow: 2px 2px 4px #4f7d82;
+}
+
+.button2
+{
+    background-color: #4f7d82;
+    color: white;
+}
+
+.button2:hover
+{
+    background-color: whitesmoke; 
+    color: #4f7d82; 
+    border: 2px solid white;
+    font-family: 'Lucida Caligraphy';
+    text-shadow: 2px 2px 4px #4f7d82;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#logout
+{
+	font-size: 20px;
+    float: right;
+}
+
+
+#output
+{
+	padding: 10px;
+    width:80%;
+    background: rgb(79, 125, 130, 0.8);
+    border-radius: 15px;
+}
+
+.logo
+{
+	width: 80px;
+    margin-top: 10px;
+    border-radius: 40px;
+}
+
